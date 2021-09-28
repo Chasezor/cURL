@@ -1,0 +1,8 @@
+curl -i https://enjx8znoatqwr.x.pipedream.net/ // get the site information
+
+curl -d '{ "name": "Luke Skywalker" }'   -H "Content-Type: application/json"   https://enjx8znoatqwr.x.pipedream.net/
+//passes information with a POST 
+
+curl -c https://enjx8znoatqwr.x.pipedream.net/
+//gets cookies
+
